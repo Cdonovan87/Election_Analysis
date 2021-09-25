@@ -1,1 +1,14 @@
 # Election_Analysis
+## Overview of Election Audit
+### Purpose
+For this challenge I was tasked with writing code that could help automate the process of tabulating votes for a congressional election in Colorado. The main purpose of the code was to calculate the total number of votes cast, total vote and percentage of votes for each county, Determine the largest county turnout, Count the number of votes and percentage of the total votes for each candidate and then determine the winner of the election. Another purpose was to determine if this script could be used for other elections.
+## Election-Audit Results
+* In this congressional election 369,711 votes were cast.
+* The precinct for this vote included 3 different counties, Jefferson, Denver, and Arapahoe. Jefferson had a vote turnout of 38,855 votes wich accounted for 10.5% of total votes cast in the election. Denver had a turnout of 306,055 votes cast wich is 82.8% of total votes cast in the election. Finally Arapahoe had a vote turnout of 24,801 votes wich accounted for only 6.7% of total votes cast in the election.
+* Based on the data, Denver county had the largest number of votes in the election with 306,055 votes cast.
+* This election had three candidates up for election. The first candidate was Charles Casper Stockham who received 23.0% of the votes with a total of 85,213 votes. The next candidate was Diana DeGette who received 73.8% of the vote with a total of 272,892 votes. The last candidate was Raymon Anthony Doane who received 3.1% of the vote with a total of 11,606 votes.
+* Based on the data from above the winner of the election was Diana DeGette with 272,892 votes winning with 73.8% of the vote cast. She beat her closest opponent by 187,679 votes.
+## Election-Audit Summary
+After creating and running this code I believe that it can be used for other elections, whether larger or smaller, with just a couple of modifications. One example of how this could be modified for another election is for the presidential election. To do this you would first have to modify the base code from focusing on counties to states. You would then determine which candidate won a specific state and add the total of electoral colllege votes to that candidates total votes. Finally you would have to add code that checks the candidates total electoral votes and check if its greater than or equal to 270, then if it is they win. Another example would be if a certain election requires a candidate to win by a specific percent of the vote, i.e 10% more than there closest opponent. To do this you would keep the code how it is, changing it based on the size of the election, state vs precinct/county, and then add a line of code that checks the total percent of vote for each candidate and determines if its larger by the required amount than the closest opponents percentage. You could also modify it to print out that the race needs to go to a run-off. 
+
+
